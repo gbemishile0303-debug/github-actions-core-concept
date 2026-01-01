@@ -4,19 +4,15 @@ jobs:
   test-job:
     runs-on: ubuntu-latest
     steps:
+      - name: checkout repository
+        uses: actions/checkout@v3 
+
+
       - name: Test job welcome message
         run: echo "executing the test job"
+              cat README.md
 
-
-      - name: checkout repository
-        uses: actions/checkout@v6
-        
-
-
-
-      - name: Readme file content
-        run: cat README.md
-
+     
 
             
             
