@@ -1,0 +1,1 @@
+i am a novice to understanding devops
